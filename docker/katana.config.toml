@@ -1,0 +1,10 @@
+seed = 0
+gas_price = 100000000000
+chain_id = "TESTNET"
+port = 5050
+blocks_on_demand = false
+block_time = 3000
+timeout = 120
+accounts = 3
+account_class = "cairo0"
+disable_fee = true 

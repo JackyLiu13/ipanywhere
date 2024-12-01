@@ -1,0 +1,32 @@
+.css-selector {
+    background: linear-gradient(301deg, #e5f3ff, #c3e3ff, #d8edff, #d8d9ff, #e9e9ff, #f4f4ff, #e3e3f0, #d5d5f0, #c3c3f5, #a3b0e3, #dde4ff, #f3f6ff);
+    background-size: 2400% 2400%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+
+.bg-hero-background {
+    background-image: url('../assets/gradient_bg.png'); /* Update with your image path */
+  }

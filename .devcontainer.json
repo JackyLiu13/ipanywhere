@@ -1,0 +1,16 @@
+{
+    "name": "dev",
+    "image": "starknetfoundation/starknet-dev:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "StarkWare.cairo1",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    },
+    "remoteUser": "root",
+    "postCreateCommand": "apt-get update && apt-get install -y curl && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && apt-get install -y nodejs && npm cache clean --force",
+    "forwardPorts": [5173],
+    "appPort": ["5173:5173"]
+}
